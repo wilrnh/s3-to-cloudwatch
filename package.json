@@ -1,0 +1,22 @@
+{
+  "name": "s3-to-cloudwatch",
+  "version": "0.0.1",
+  "description": "Lambda function that sends metrics to Cloudwatch when objects are added to an S3 bucket",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wilrnh/s3-to-cloudwatch.git"
+  },
+  "author": "William Hutson <wilrnh@msn.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wilrnh/s3-to-cloudwatch/issues"
+  },
+  "homepage": "https://github.com/wilrnh/s3-to-cloudwatch#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.38"
+  }
+}
